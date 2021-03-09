@@ -7,7 +7,6 @@ RUN cd /app && \
 
 FROM alpine:3.12
 COPY --from=builder /app/prometheus_bot /
-COPY ./config.yaml /
 RUN apk add --no-cache ca-certificates tzdata tini
 USER nobody
 EXPOSE 9087

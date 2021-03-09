@@ -1,4 +1,4 @@
-telegram_token: "sasd"
+telegram_token: "write_me"
 # ONLY IF YOU USING DATA FORMATTING FUNCTION, NOTE for developer: important or test fail
 #time_outdata: "02/01/2006 15:04:05" 
 #template_path: "template.tmpl" # ONLY IF YOU USING TEMPLATE
